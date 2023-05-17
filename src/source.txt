@@ -1,0 +1,77 @@
+ssh swindell@localhost -p 2022 - подключение убунты к терминалу
+sudo mount -t vboxsf src /home/swindell/monitoring/ - подключение общей папки
+https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad
+https://bony-tune-0ce.notion.site/07_Linux_Monitoring-9c970e8114e34e9a95bfb888d5f3964d - записи Гали по мониторингу
+https://bony-tune-0ce.notion.site/06_Linux_Network-01aceaa5d6cf46c0aaf59ae2f29301a7 - записи Гали по нетворку
+https://miran.ru/nastrojka-ssh-dlya-ubuntu - когда какаято параша с терминалом
+
+Разное про скрипты:
+https://habr.com/ru/company/ruvds/blog/325928/
+
+Флаги существования:
+    -z и -v: https://andreyex.ru/linux/kak-proverit-chto-peremennaya-ustanovlena-ili-pusta-v-bash/
+    -d и -f: https://andreyex.ru/operacionnaya-sistema-linux/kak-proverit-sushhestvuet-li-fajl-ili-katalog-v-bash/
+
+01
+    Регулярные выражения: 
+        https://www.opennet.ru/docs/RUS/bash_scripting_guide/c11895.html
+    echo:
+        https://losst.pro/komanda-echo-v-linux
+    Сравнение выражений:
+        https://sukachoff.ru/programmy/bash-operacii-sravneniya-kak-sravnivat-chisla-v-obolochke-bash-v-linux-proverka-stroki-na/
+
+02
+    Подключение скриптов:
+        https://routerus.com/bash-source-command/
+        https://andreyex.ru/operacionnaya-sistema-linux/komanda-source-v-bash/
+    Функции:
+        https://losst.pro/funktsii-bash-v-skriptah
+        https://habr.com/ru/company/ruvds/blog/327248/
+    Утилита date:
+        https://setiwik.ru/komanda-date-data-v-linux-s-primerami-ispolzovaniya/
+        https://ru.wikipedia.org/wiki/Date - Все флаги
+    Uptime:
+        https://andreyex.ru/operacionnaya-sistema-linux/komanda-uptime-v-linux/
+    awk:
+        https://www.8host.com/blog/ispolzovanie-yazyka-awk-dlya-raboty-s-tekstom-v-linux/
+        https://habr.com/ru/company/ruvds/blog/327754/
+        https://habr.com/ru/company/ruvds/blog/665084/
+    ip:
+        https://webhamster.ru/mytetrashare/index/mtb0/1523170955gv0yyw8b58 - опции
+        https://wiki.merionet.ru/servernye-resheniya/46/komanda-ip-v-linux-rukovodstvo-s-primerami/
+    free:
+        https://baks.dev/article/terminal/free-command-in-linux
+        https://linux-faq.ru/page/komanda-free
+    df:
+        https://losst.pro/komanda-df-linux
+    head/tail:
+        https://www.kryukov.biz/soderzhanie/programmy-dlya-raboty-s-tekstovymi-fajlami/head-i-tail/
+    read:
+        https://tokmakov.msk.ru/blog/item/68
+        https://sites.google.com/site/bashhackers/commands/read - флаги
+    Запись в файл:
+        https://andreyex.ru/linux/bash-zapis-v-fajl/
+    dd:
+        https://losst.pro/komanda-dd-linux
+        https://linux-faq.ru/page/komanda-dd
+
+03
+    Изменение цветов в терминале:
+        https://habr.com/ru/company/first/blog/672464/
+    case:
+        https://routerus.com/bash-case-statement/
+05
+    Работат со строками:
+        https://vk.com/@linux_windows_net-bash-rabota-so-strokami
+    find:
+        https://ru.wikipedia.org/wiki/Find - флаги
+        https://losst.pro/komanda-find-v-linux
+        https://andreyex.ru/linux/komandy-linux-i-komandy-shell/primer-ispolzyvaniya-komandy-find-v-linux/ - больше флагов
+    wc:
+        https://ru.wikipedia.org/wiki/Wc
+        https://losst.pro/komanda-wc-v-linux
+    du:
+        https://losst.pro/komanda-du-v-linux
+    sort:
+        https://losst.pro/komanda-sort-v-linux
+        https://ru.wikipedia.org/wiki/Sort
